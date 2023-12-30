@@ -34,10 +34,13 @@ main {
  border: 1px solid var(--secBlack);
  margin-top: 15vh;
  border-radius: 15px;
- box-shadow: 10px 10px 0 var(--secBlack);
+ box-shadow: 5px 5px 0 var(--secBlack);
 
 }
 
+main:hover {
+ box-shadow: 10px 10px 0 var(--secBlack);
+}
 
 @media screen and (min-width:400px) {
  main {
